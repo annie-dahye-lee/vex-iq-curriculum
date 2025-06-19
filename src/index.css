@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+#root {
+  cursor: url("../public/cursor/Normal.cur"), pointer;
+}
+
+/* .sidebar-link,
+.sidebar-link-btn {
+  cursor: url("../public/cursor/Busy.ani"), pointer !important;
+} */
+
+a,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+[role="button"],
+[tabindex="0"],
+.sidebar-link,
+.sidebar-link-btn {
+  cursor: url("../public/cursor/Busy.ani"), url("../public/cursor/Busy.ani"),
+    pointer !important;
+}
