@@ -1,17 +1,15 @@
 import React from "react";
+import PDFViewer from "../components/PDFViewer";
 
 const Lesson3 = () => (
   <>
-    <h2 className="text-3xl font-extrabold text-[#03045E] mb-2">
-      Lesson 3: Coding the Drivetrain
-    </h2>
     <p className="text-white text-lg mb-8">
       In this lesson, you'll set up VEXcode IQ, connect your robot, and learn to
       code basic movement and control. Watch the tutorials and complete the
       challenges below!
     </p>
-    <div className="bg-[#CAF0F8] border-l-4 border-[#00B4D8] p-6 rounded-lg shadow mb-8">
-      <h3 className="text-xl font-bold text-[#00B4D8] mb-2">
+    <div className="bg-cyan-50 border-l-4 border-cyan-400 p-6 rounded-lg shadow mb-8">
+      <h3 className="text-xl font-bold text-cyan-700 mb-2">
         Video 1: VEXcode IQ Setup
       </h3>
       <iframe
@@ -21,7 +19,7 @@ const Lesson3 = () => (
         frameBorder="0"
         allowFullScreen
       ></iframe>
-      <h3 className="text-xl font-bold text-[#00B4D8] mt-8 mb-2">
+      <h3 className="text-xl font-bold text-cyan-700 mt-8 mb-2">
         Video 2: Code Blocks & Movement
       </h3>
       <iframe
@@ -32,20 +30,28 @@ const Lesson3 = () => (
         allowFullScreen
       ></iframe>
     </div>
-    <div className="bg-[#FFFFFF] border-l-4 border-[#818589] p-6 rounded-lg shadow mb-8">
-      <h4 className="text-lg font-semibold text-[#818589] mb-2">Challenges</h4>
-      <iframe
-        className="w-full h-40 rounded-lg shadow mb-4"
-        src="https://docs.google.com/viewer?url=your-challenge1-pdf-link&embedded=true"
-        title="Challenge 1 PDF"
-        frameBorder="0"
-      ></iframe>
-      <iframe
-        className="w-full h-40 rounded-lg shadow"
-        src="https://docs.google.com/viewer?url=your-challenge2-pdf-link&embedded=true"
-        title="Challenge 2 PDF"
-        frameBorder="0"
-      ></iframe>
+    <div className="bg-white border-l-4 border-cyan-200 p-6 rounded-lg shadow mb-8">
+      <h4 className="text-lg font-semibold text-cyan-700 mb-2">Challenges</h4>
+      <div className="space-y-6">
+        <div>
+          <h5 className="text-md font-semibold text-cyan-600 mb-2">
+            Drivetrain Challenges
+          </h5>
+          <PDFViewer
+            src="/pdfs/Drivetrain Challenges.pdf#zoom=100&pagemode=none"
+            title="Drivetrain Challenges PDF"
+          />
+        </div>
+        <div>
+          <h5 className="text-md font-semibold text-cyan-600 mb-2">
+            Advanced Shapes Coding Practice
+          </h5>
+          <PDFViewer
+            src="/pdfs/Advanced Shapes Coding Practice.pdf#zoom=100&pagemode=none"
+            title="Advanced Shapes Coding Practice PDF"
+          />
+        </div>
+      </div>
     </div>
     <div className="bg-gradient-to-br from-white via-cyan-50 to-cyan-100 border-l-4 border-cyan-500 p-6 rounded-lg shadow-xl mb-8">
       <h4 className="text-lg font-bold text-cyan-700 mb-4 uppercase tracking-wide">

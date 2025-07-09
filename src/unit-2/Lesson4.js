@@ -1,37 +1,21 @@
 import React from "react";
+import PDFViewer from "../components/PDFViewer";
 
 const Lesson4 = () => (
   <>
-    <h2 className="text-3xl font-extrabold text-[#03045E] mb-2">
-      Lesson 4: Gyro Sensors
-    </h2>
-    <p className="text-white text-lg mb-8">
+    <p className="text-white-700 text-lg mb-8">
       In this lesson, you'll learn how to use gyro sensors to make your robot
       turn more precisely. You'll explore how to read sensor values and use them
       to control your robot's movement.
     </p>
-    <div className="bg-[#CAF0F8] border-l-4 border-[#00B4D8] p-6 rounded-lg shadow mb-8">
-      <h3 className="text-xl font-bold text-[#00B4D8] mb-2">
-        Video: Understanding Gyro Sensors
+    <div className="bg-cyan-50 border-l-4 border-cyan-400 p-6 rounded-lg shadow mb-8">
+      <h3 className="text-xl font-bold text-cyan-700 mb-2">
+        Gyro Sensors Guide & Exercises
       </h3>
-      <iframe
-        className="w-full h-64 md:h-96 rounded-lg shadow-md"
-        src="https://www.youtube.com/embed/your-gyro-sensor-video-id"
-        title="Gyro Sensor Video"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
-    </div>
-    <div className="bg-[#FFFFFF] border-l-4 border-[#818589] p-6 rounded-lg shadow mb-8">
-      <h3 className="text-xl font-bold text-[#818589] mb-2">
-        Gyro Sensor Exercise
-      </h3>
-      <iframe
-        className="w-full h-64 md:h-96 rounded-lg shadow-md"
-        src="https://docs.google.com/viewer?url=your-gyro-exercise-pdf-link&embedded=true"
-        title="Gyro Exercise PDF"
-        frameBorder="0"
-      ></iframe>
+      <PDFViewer
+        src="/pdfs/Lesson 4 - Gyro Sensors.pdf#zoom=100&pagemode=none"
+        title="Gyro Sensors PDF"
+      />
     </div>
     <div className="bg-gradient-to-br from-white via-cyan-50 to-cyan-100 border-l-4 border-cyan-500 p-6 rounded-lg shadow-xl mb-8">
       <h4 className="text-lg font-bold text-cyan-700 mb-4 uppercase tracking-wide">

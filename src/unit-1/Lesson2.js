@@ -7,14 +7,19 @@ const Lesson2 = () => (
         <h2 className="text-2xl font-bold text-cyan-700 mb-6">
           OnShape Tutorial
         </h2>
+        <p className="text-black text-lg mb-8">
+          In this lesson, you'll build your drivetrain using your CAD model as a
+          reference. Integrate your chosen gear ratio and use the checklist
+          below to ensure your build is complete.
+        </p>
         <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-2">
+          <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
             <span role="img" aria-label="check">
               ✅
             </span>{" "}
             Before You Start
           </h3>
-          <ul className="list-disc list-inside text-gray-700 mb-2 pl-4">
+          <ul className="list-disc list-inside text-black mb-2 pl-4">
             <li>
               <span className="font-bold">Create an Onshape Account:</span> Go
               to{" "}
@@ -32,20 +37,20 @@ const Lesson2 = () => (
               <span className="font-bold">Get the VEX IQ Parts Library:</span>{" "}
               Ask your instructor to share the VEX IQ parts library with you on
               Onshape. <br />
-              <span className="text-gray-500 text-sm">
+              <span className="text-gray-600 text-sm">
                 (This gives you access to all the parts you'll use.)
               </span>
             </li>
           </ul>
         </div>
         <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3 flex items-center gap-2">
+          <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
             <span role="img" aria-label="tools">
               🛠️
             </span>{" "}
             What is Fasten Mate?
           </h3>
-          <p className="mb-2 text-gray-700">
+          <p className="mb-2 text-black">
             <span className="font-bold">Fasten Mate</span> locks two parts
             together so they don't move. It's like gluing them in place — they
             rotate and move together.
@@ -56,11 +61,11 @@ const Lesson2 = () => (
               alt="Fasten Mate Icon"
               className="h-21 w-25 mb-1"
             />
-            <span className="text-gray-500 text-xs">
+            <span className="text-gray-600 text-xs">
               (Find it in the Assembly toolbar)
             </span>
           </div>
-          <p className="mb-2 text-gray-700">
+          <p className="mb-2 text-black">
             <span className="font-bold">Use it to:</span> attach beams, gears,
             motors, connectors, etc.
           </p>
@@ -68,7 +73,7 @@ const Lesson2 = () => (
             <h4 className="text-base font-semibold text-cyan-700 mb-2">
               How it works:
             </h4>
-            <ol className="list-decimal list-inside text-gray-700 space-y-1 pl-4">
+            <ol className="list-decimal list-inside text-black space-y-1 pl-4">
               <li>
                 Click <span className="font-bold">Fasten Mate</span>.
               </li>

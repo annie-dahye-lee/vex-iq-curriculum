@@ -2,16 +2,13 @@ import React from "react";
 
 const Lesson1 = () => (
   <>
-    <h2 className="text-3xl font-extrabold text-[#03045E] mb-2">
-      Lesson 1: Intro to Drivetrain
-    </h2>
     <p className="text-white text-lg mb-8">
       In this lesson, you'll explore the drivetrain design of the teaching aid
       robot, learn about gear ratios, and see how gears fit together. Make sure
       you've finished your CAD drivetrain model before you begin building!
     </p>
-    <div className="bg-[#FFFFFF] border-l-4 border-[#03045E] p-6 rounded-lg shadow mb-8">
-      <h3 className="text-xl font-bold text-[#03045E] mb-2">
+    <div className="bg-white border-l-4 border-cyan-400 p-6 rounded-lg shadow mb-8">
+      <h3 className="text-xl font-bold text-cyan-700 mb-2">
         Teaching Aid Robot: Drivetrain Features
       </h3>
       <img
@@ -19,14 +16,14 @@ const Lesson1 = () => (
         alt="Drivetrain Features"
         className="w-full max-w-md mx-auto rounded-lg shadow mb-4"
       />
-      <ul className="list-disc list-inside text-[#020B13] space-y-2">
+      <ul className="list-disc list-inside text-gray-800 space-y-2">
         <li>Observe the gear train and wheel placement</li>
         <li>Notice how the motors are connected to the drivetrain</li>
         <li>Think about how gear ratio affects speed and torque</li>
       </ul>
     </div>
-    <div className="bg-[#CAF0F8] border-l-4 border-[#00B4D8] p-6 rounded-lg shadow mb-8">
-      <h3 className="text-xl font-bold text-[#00B4D8] mb-2">
+    <div className="bg-cyan-50 border-l-4 border-cyan-400 p-6 rounded-lg shadow mb-8">
+      <h3 className="text-xl font-bold text-cyan-700 mb-2">
         Video: Understanding Gear Ratios
       </h3>
       <iframe
@@ -36,7 +33,7 @@ const Lesson1 = () => (
         frameBorder="0"
         allowFullScreen
       ></iframe>
-      <p className="text-[#818589] mt-4 text-sm">
+      <p className="text-gray-500 mt-4 text-sm">
         Learn how to fit gears together and how gear ratios impact your robot's
         performance.
       </p>

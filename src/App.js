@@ -21,6 +21,29 @@ import Unit2Lesson3 from "./unit-2/Lesson3";
 import Unit2Lesson4 from "./unit-2/Lesson4";
 import Unit2Lesson5 from "./unit-2/Lesson5";
 
+// Unit 3 imports
+import Unit3LearningGoals from "./unit-3/LearningGoals";
+import Unit3Lesson1 from "./unit-3/Lesson1";
+import Unit3Lesson2 from "./unit-3/Lesson2";
+
+// Unit 4 imports
+import Unit4LearningGoals from "./unit-4/LearningGoals";
+import Unit4Lesson1 from "./unit-4/Lesson1";
+import Unit4Lesson2 from "./unit-4/Lesson2";
+
+// Unit 5 imports
+import Unit5LearningGoals from "./unit-5/LearningGoals";
+import Unit5Lesson1 from "./unit-5/Lesson1";
+import Unit5Lesson2 from "./unit-5/Lesson2";
+
+// Unit 6 imports
+import Unit6LearningGoals from "./unit-6/LearningGoals";
+import Unit6Lesson1 from "./unit-6/Lesson1";
+import Unit6Lesson2 from "./unit-6/Lesson2";
+import Unit6Lesson3 from "./unit-6/Lesson3";
+import Unit6Lesson4 from "./unit-6/Lesson4";
+import Unit6Lesson5 from "./unit-6/Lesson5";
+
 const classroomLogo =
   "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png";
 
@@ -294,6 +317,205 @@ function App() {
               nextLink={null}
             >
               <Unit2Lesson5 />
+            </LessonPageLayout>
+          }
+        />
+        {/* Unit 3 Routes */}
+        <Route
+          path="/unit-3"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Unit 3 Overview"
+              prevLink={null}
+              nextLink="/unit-3/lesson-1"
+            >
+              <Unit3LearningGoals />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-3/lesson-1"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 1: Distance Sensor & Bumper Switch"
+              prevLink="/unit-3"
+              nextLink="/unit-3/lesson-2"
+            >
+              <Unit3Lesson1 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-3/lesson-2"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 2: Touch LED Sensor & Optical Sensor"
+              prevLink="/unit-3/lesson-1"
+              nextLink={null}
+            >
+              <Unit3Lesson2 />
+            </LessonPageLayout>
+          }
+        />
+        {/* Unit 4 Routes */}
+        <Route
+          path="/unit-4"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Unit 4 Overview"
+              prevLink={null}
+              nextLink="/unit-4/lesson-1"
+            >
+              <Unit4LearningGoals />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-4/lesson-1"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 1: Intro to Claw"
+              prevLink="/unit-4"
+              nextLink="/unit-4/lesson-2"
+            >
+              <Unit4Lesson1 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-4/lesson-2"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 2: Build the Claw"
+              prevLink="/unit-4/lesson-1"
+              nextLink={null}
+            >
+              <Unit4Lesson2 />
+            </LessonPageLayout>
+          }
+        />
+        {/* Unit 5 Routes */}
+        <Route
+          path="/unit-5"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Unit 5 Overview"
+              prevLink={null}
+              nextLink="/unit-5/lesson-1"
+            >
+              <Unit5LearningGoals />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-5/lesson-1"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 1: Intro to Intake Roller"
+              prevLink="/unit-5"
+              nextLink="/unit-5/lesson-2"
+            >
+              <Unit5Lesson1 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-5/lesson-2"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 2: Building Intake Roller"
+              prevLink="/unit-5/lesson-1"
+              nextLink={null}
+            >
+              <Unit5Lesson2 />
+            </LessonPageLayout>
+          }
+        />
+        {/* Unit 6 Routes */}
+        <Route
+          path="/unit-6"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Unit 6 Overview"
+              prevLink={null}
+              nextLink="/unit-6/lesson-1"
+            >
+              <Unit6LearningGoals />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-6/lesson-1"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 1: Intro to Catapult"
+              prevLink="/unit-6"
+              nextLink="/unit-6/lesson-2"
+            >
+              <Unit6Lesson1 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-6/lesson-2"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 2: Catapult Arm"
+              prevLink="/unit-6/lesson-1"
+              nextLink="/unit-6/lesson-3"
+            >
+              <Unit6Lesson2 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-6/lesson-3"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 3: Ratchet Motor"
+              prevLink="/unit-6/lesson-2"
+              nextLink="/unit-6/lesson-4"
+            >
+              <Unit6Lesson3 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-6/lesson-4"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 4: Combining Parts"
+              prevLink="/unit-6/lesson-3"
+              nextLink="/unit-6/lesson-5"
+            >
+              <Unit6Lesson4 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-6/lesson-5"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 5: Building It All"
+              prevLink="/unit-6/lesson-4"
+              nextLink={null}
+            >
+              <Unit6Lesson5 />
             </LessonPageLayout>
           }
         />

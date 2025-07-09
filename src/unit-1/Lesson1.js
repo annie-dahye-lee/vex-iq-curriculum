@@ -20,10 +20,10 @@ const Lesson1 = (props) => (
         allowFullScreen
       ></iframe>
     </div>
-    <p className="text-white leading-relaxed mb-6">
-      In this lesson, you'll learn about basic VEX IQ components: beams, pins,
-      wheels, and more. You'll explore how they connect to form mechanisms for
-      your robot.
+    <p className="text-white text-lg mb-8">
+      In this lesson, you'll explore the drivetrain design of the teaching aid
+      robot, learn about gear ratios, and see how gears fit together. Make sure
+      you've finished your CAD drivetrain model before you begin building!
     </p>
     {/* Parts Section */}
     <div className="flex flex-col items-center mb-12">
@@ -41,7 +41,7 @@ const Lesson1 = (props) => (
             >
               Electronics
             </a>
-            <span className="text-base text-gray-700 text-left">
+            <span className="text-base text-gray-800 text-left">
               This includes all of the electrical components that provide power
               and input signals to the brain of the robot.
             </span>
@@ -55,7 +55,7 @@ const Lesson1 = (props) => (
             >
               Structure
             </a>
-            <span className="text-base text-gray-700 text-left">
+            <span className="text-base text-gray-800 text-left">
               This includes all of the structural framework and connector
               pieces.
             </span>
@@ -69,7 +69,7 @@ const Lesson1 = (props) => (
             >
               Motion
             </a>
-            <span className="text-base text-gray-700 text-left">
+            <span className="text-base text-gray-800 text-left">
               This includes all of the components that turn, slide, rotate, or
               grab and the hardware that allows this motion.
             </span>

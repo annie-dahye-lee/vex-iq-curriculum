@@ -58,7 +58,7 @@ const Practice = () => (
                 <span className="text-cyan-700 font-bold">{ex.guide}</span>
               </div>
             )}
-            <ul className="list-disc list-inside text-gray-800 mb-4 pl-4">
+            <ul className="list-disc list-inside text-black mb-4 pl-4">
               {ex.instructions.map((inst, i) => (
                 <li key={i}>{inst}</li>
               ))}

@@ -10,50 +10,45 @@ const LearningGoals = (props) => (
       </h2>
       <ul className="list-disc list-inside text-lg text-gray-800 space-y-2 pl-4">
         <li>
-          <span className="font-bold text-cyan-700">Design & Build:</span>{" "}
-          Master drivetrain design, gear ratios, and hands-on building skills.
+          <span className="font-bold text-cyan-700">Catapult Mechanics:</span>{" "}
+          Understand the principles of energy storage and release in catapult
+          systems for launching game objects.
         </li>
         <li>
-          <span className="font-bold text-cyan-700">CAD & Documentation:</span>{" "}
-          Complete a full CAD model and document your process in your
-          engineering notebook.
+          <span className="font-bold text-cyan-700">Energy Management:</span>{" "}
+          Learn how to design and control systems that store potential energy
+          and convert it to kinetic energy efficiently.
         </li>
         <li>
-          <span className="font-bold text-cyan-700">Code Like a Pro:</span>{" "}
-          Program your drivetrain using VEXcode IQ, from basic movement to
-          advanced control loops.
+          <span className="font-bold text-cyan-700">
+            Complex Assembly Design:
+          </span>{" "}
+          Master advanced CAD techniques for designing multi-component
+          mechanical systems with moving parts.
         </li>
         <li>
-          <span className="font-bold text-cyan-700">Sensor Integration:</span>{" "}
-          Use gyro sensors for precision and learn the basics of PID control.
+          <span className="font-bold text-cyan-700">System Integration:</span>{" "}
+          Develop skills in combining multiple mechanisms (ratchet motor and
+          catapult arm) into a cohesive system.
         </li>
         <li>
-          <span className="font-bold text-cyan-700">Reflect & Improve:</span>{" "}
-          Analyze your design and code, and iterate for better performance.
+          <span className="font-bold text-cyan-700">
+            Precision Engineering:
+          </span>{" "}
+          Learn to build and tune complex mechanical systems for consistent,
+          reliable performance under pressure.
         </li>
       </ul>
       <p className="mt-6 text-base text-gray-500 italic">
-        By the end of this unit, you'll have a fully functional drivetrain, a
-        detailed CAD model, and a notebook full of engineering insights!
+        By the end of this unit, you'll have a powerful catapult system that can
+        launch objects with precision—the ultimate offensive weapon for
+        competitive robotics!
       </p>
     </section>
     <h3 className="text-lg font-semibold text-cyan-700 mb-6 uppercase tracking-widest">
-      Unit 2: Drivetrain, Coding, and PID
+      Unit 6: Catapult
     </h3>
-    {/* Teaching Aid Robot Section (light card) */}
-    <div className="bg-white border-l-4 border-cyan-200 p-6 rounded-lg shadow mb-8">
-      <h4 className="text-xl font-bold text-cyan-700 mb-2">Meet Your Robot!</h4>
-      <p className="text-gray-700 mb-2">
-        Get a sneak peek at the teaching aid robot—the final product you'll
-        build! We'll demo all its features so you can see what you're working
-        toward.
-      </p>
-      <img
-        src="/imgs/units/robot_demo.jpg"
-        alt="Teaching Aid Robot"
-        className="w-full max-w-md mx-auto rounded-lg shadow mt-4 border-2 border-cyan-100"
-      />
-    </div>
+
     {/* Getting Set Up Section (light card) */}
     <div className="bg-white border-l-4 border-cyan-100 p-6 rounded-lg shadow mb-8">
       <h4 className="text-lg font-semibold text-cyan-700 mb-2">
@@ -71,54 +66,58 @@ const LearningGoals = (props) => (
     {/* Lessons Preview Section (light card) */}
     <div className="bg-white border-l-4 border-cyan-100 p-6 rounded-lg shadow mb-8">
       <h4 className="text-lg font-semibold text-cyan-700 mb-2">
-        What's Ahead in Unit 2?
+        What's Ahead in Unit 6?
       </h4>
       <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-2">
         <li>
           <span className="font-bold text-cyan-700">
-            Lesson 1: Intro to Drivetrain
+            Lesson 1: Intro to Catapult
           </span>{" "}
           <br />
           <span className="text-sm">
-            Explore drivetrain design, gear ratios, and see the teaching aid
-            robot in action.
+            Explore catapult mechanics and energy principles. Review the
+            Objectives and Checklist document, then start brainstorming your own
+            catapult designs.
           </span>
         </li>
         <li>
           <span className="font-bold text-cyan-700">
-            Lesson 2: Building the Drivetrain
+            Lesson 2: Catapult Arm
           </span>{" "}
           <br />
           <span className="text-sm">
-            Build your drivetrain, integrate your chosen gear ratio, and
-            document your choices.
+            Design and build the catapult arm mechanism. CAD the arm using
+            building instructions, then construct it and test its motion.
           </span>
         </li>
         <li>
           <span className="font-bold text-cyan-700">
-            Lesson 3: Coding the Drivetrain
+            Lesson 3: Ratchet Motor
           </span>{" "}
           <br />
           <span className="text-sm">
-            Program your drivetrain in VEXcode IQ, from setup to basic movement
-            and control.
+            Build the ratchet motor system that will wind and release the
+            catapult. CAD and construct this critical power mechanism.
           </span>
         </li>
         <li>
           <span className="font-bold text-cyan-700">
-            Lesson 4: Gyro Sensors
+            Lesson 4: Combining Parts
           </span>{" "}
           <br />
           <span className="text-sm">
-            Integrate and code with gyro sensors for precision and new
-            challenges.
+            Integrate the ratchet motor and catapult arm into a unified system.
+            CAD the complete integration and test the combined mechanism.
           </span>
         </li>
         <li>
-          <span className="font-bold text-cyan-700">Lesson 5: PID</span> <br />
+          <span className="font-bold text-cyan-700">
+            Lesson 5: Building It All
+          </span>{" "}
+          <br />
           <span className="text-sm">
-            Learn about PID control, tune your robot, and program it to drive in
-            a square.
+            Construct the complete catapult system and integrate it with your
+            robot. Test, tune, and optimize for maximum performance.
           </span>
         </li>
       </ol>
