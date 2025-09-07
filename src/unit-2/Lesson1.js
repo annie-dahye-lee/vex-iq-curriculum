@@ -28,7 +28,7 @@ const Lesson1 = () => (
       </h3>
       <iframe
         className="w-full h-64 md:h-96 rounded-lg shadow-md"
-        src="https://www.youtube.com/embed/your-gear-ratio-video-id"
+        src="https://www.youtube.com/embed/wau5W8Mt7Hw?si=Zw-hzYbPG-mTXXWJ"
         title="Gear Ratio Video"
         frameBorder="0"
         allowFullScreen

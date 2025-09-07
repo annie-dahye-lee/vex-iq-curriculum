@@ -30,6 +30,9 @@ const Sidebar = ({
         { name: "Learning Goals", link: `/unit-2` },
         { name: "Intro to Drivetrain", link: `/unit-2/lesson-1` },
         { name: "Build", link: `/unit-2/lesson-2` },
+        { name: "Coding", link: `/unit-2/lesson-3` },
+        { name: "Sensors", link: `/unit-2/lesson-4` },
+        { name: "PID Control", link: `/unit-2/lesson-5` },
       ];
     } else if (number === 3) {
       lessons = [
@@ -160,7 +163,7 @@ const Sidebar = ({
         {/* Divider */}
         <div className="my-6"></div>
         {/* Quick Links Dropdown */}
-        <div>
+        {/*<div>
           <button
             onClick={() => setIsQuickLinksOpen(!isQuickLinksOpen)}
             className="w-full flex items-center justify-between text-sm font-bold uppercase tracking-wider text-white bg-transparent hover:text-red-400 transition-all duration-200 py-3 px-4 rounded-xl mb-3 focus:outline-none sidebar-link-btn"
@@ -193,6 +196,7 @@ const Sidebar = ({
             </nav>
           )}
         </div>
+        */}
       </div>
     </aside>
   );

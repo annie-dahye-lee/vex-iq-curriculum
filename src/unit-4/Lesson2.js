@@ -70,13 +70,13 @@ const Lesson2 = () => (
             Building Tips:
           </h4>
           <ul className="list-disc list-inside text-white-700 space-y-1">
-            <li>Follow your CAD model exactly - it's your blueprint!</li>
-            <li>
+            <li className="text-gray-600">Follow your CAD model exactly - it's your blueprint!</li>
+            <li className="text-gray-600">
               Check gear meshing - teeth should engage properly without binding
             </li>
-            <li>Ensure all connections are secure but not over-tightened</li>
-            <li>Test motion frequently as you build</li>
-            <li>Keep your workspace organized</li>
+            <li className="text-gray-600">Ensure all connections are secure but not over-tightened</li>
+            <li className="text-gray-600">Test motion frequently as you build</li>
+            <li className="text-gray-600">Keep your workspace organized</li>
           </ul>
         </div>
       </div>

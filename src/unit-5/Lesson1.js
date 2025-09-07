@@ -118,7 +118,7 @@ const Lesson1 = () => (
           </h4>
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div>
-              <strong>CAD Requirements:</strong>
+              <strong className="text-gray-600">CAD Requirements:</strong>
               <ul className="list-disc list-inside text-gray-700 mt-1">
                 <li>Roller mechanism fully designed</li>
                 <li>Proper gear ratios calculated</li>
@@ -127,7 +127,7 @@ const Lesson1 = () => (
               </ul>
             </div>
             <div>
-              <strong>Design Validation:</strong>
+              <strong className="text-gray-600">Design Validation:</strong>
               <ul className="list-disc list-inside text-gray-700 mt-1">
                 <li>Object size compatibility verified</li>
                 <li>Motor requirements calculated</li>

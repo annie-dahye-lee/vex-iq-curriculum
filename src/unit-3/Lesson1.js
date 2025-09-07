@@ -70,11 +70,11 @@ const Lesson1 = () => (
           </h4>
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div>
-              <strong>Distance Sensor &gt; Distance</strong>
+              <strong className="text-gray-600">Distance Sensor &gt; Distance</strong>
               <p className="text-gray-600">Returns distance in mm</p>
             </div>
             <div>
-              <strong>Distance Sensor &gt; Object Detected</strong>
+              <strong className="text-gray-600">Distance Sensor &gt; Object Detected</strong>
               <p className="text-gray-600">
                 Returns true/false if object detected
               </p>
@@ -133,11 +133,11 @@ const Lesson1 = () => (
           </h4>
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div>
-              <strong>Bumper Switch &gt; Pressed</strong>
+              <strong className="text-gray-600">Bumper Switch &gt; Pressed</strong>
               <p className="text-gray-600">Returns true when pressed</p>
             </div>
             <div>
-              <strong>Bumper Switch &gt; Released</strong>
+              <strong className="text-gray-600">Bumper Switch &gt; Released</strong>
               <p className="text-gray-600">Returns true when released</p>
             </div>
           </div>

@@ -14,7 +14,7 @@ const Lesson3 = () => (
       </h3>
       <iframe
         className="w-full h-64 md:h-96 rounded-lg shadow-md"
-        src="https://www.youtube.com/embed/your-vexcode-setup-video-id"
+        src="https://www.youtube.com/embed/tJKEjpu7Ki4?si=vYn304cckvknziBo"
         title="VEXcode IQ Setup Video"
         frameBorder="0"
         allowFullScreen
@@ -24,7 +24,7 @@ const Lesson3 = () => (
       </h3>
       <iframe
         className="w-full h-64 md:h-96 rounded-lg shadow-md"
-        src="https://www.youtube.com/embed/your-vexcode-blocks-video-id"
+        src="https://www.youtube.com/embed/pFr21fg1pBk?si=wuKbzlnS1mOLQaWj"
         title="VEXcode IQ Code Blocks Video"
         frameBorder="0"
         allowFullScreen
