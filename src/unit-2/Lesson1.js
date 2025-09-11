@@ -12,7 +12,7 @@ const Lesson1 = () => (
         Teaching Aid Robot: Drivetrain Features
       </h3>
       <img
-        src="/imgs/units/robot_drivetrain.jpg"
+        src="https://www.vexforum.com/uploads/default/original/3X/9/0/90f181d785864e129ebc1ff68b57810827e12115.jpeg"
         alt="Drivetrain Features"
         className="w-full max-w-md mx-auto rounded-lg shadow mb-4"
       />
