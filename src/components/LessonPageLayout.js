@@ -40,11 +40,45 @@ const LessonPageLayout = ({
         { name: "Lesson 4", link: `/unit-2/lesson-4` },
         { name: "Lesson 5", link: `/unit-2/lesson-5` },
       ];
+    } else if (unitNumber === 3) {
+      lessons = [
+        { name: "Learning Goals", link: `/unit-3` },
+        { name: "Lesson 1", link: `/unit-3/lesson-1` },
+        { name: "Lesson 2", link: `/unit-3/lesson-2` },
+      ];
+    } else if (unitNumber === 4) {
+      lessons = [
+        { name: "Learning Goals", link: `/unit-4` },
+        { name: "Lesson 1", link: `/unit-4/lesson-1` },
+        { name: "Lesson 2", link: `/unit-4/lesson-2` },
+      ];
+    } else if (unitNumber === 5) {
+      lessons = [
+        { name: "Learning Goals", link: `/unit-5` },
+        { name: "Lesson 1", link: `/unit-5/lesson-1` },
+        { name: "Lesson 2", link: `/unit-5/lesson-2` },
+      ];
+    } else if (unitNumber === 6) {
+      lessons = [
+        { name: "Learning Goals", link: `/unit-6` },
+        { name: "Lesson 1", link: `/unit-6/lesson-1` },
+        { name: "Lesson 2", link: `/unit-6/lesson-2` },
+        { name: "Lesson 3", link: `/unit-6/lesson-3` },
+        { name: "Lesson 4", link: `/unit-6/lesson-4` },
+        { name: "Lesson 5", link: `/unit-6/lesson-5` },
+      ];
+    } else if (unitNumber === 7) {
+      lessons = [
+        { name: "Learning Goals", link: `/unit-7` },
+        { name: "Lesson 1", link: `/unit-7/lesson-1` },
+        { name: "Lesson 2", link: `/unit-7/lesson-2` },
+      ];
     } else {
       lessons = [
         { name: "Learning Goals", link: `/unit-${unitNumber}` },
         { name: "Lesson 1", link: `/unit-${unitNumber}/lesson-1` },
         { name: "Lesson 2", link: `/unit-${unitNumber}/lesson-2` },
+        { name: "Lesson 3", link: `/unit-${unitNumber}/lesson-3` },
       ];
     }
   }

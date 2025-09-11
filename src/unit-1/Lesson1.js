@@ -77,20 +77,6 @@ const Lesson1 = (props) => (
         </div>
       </div>
     </div>
-    <div className="bg-gradient-to-br from-white via-cyan-50 to-cyan-100 border-l-4 border-cyan-500 p-6 rounded-lg shadow-xl mb-8">
-      <h3 className="text-xl font-bold text-cyan-700 mb-3">Homework</h3>
-      <p className="text-cyan-700 mb-2">
-        Document the parts you learned today in your engineering notebook.
-      </p>
-      <a
-        href="https://docs.google.com/presentation/your-google-slides-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-cyan-700 underline font-semibold hover:text-cyan-900"
-      >
-        Open Notebook
-      </a>
-    </div>
   </>
 );
 

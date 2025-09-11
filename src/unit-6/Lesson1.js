@@ -173,7 +173,7 @@ const Lesson1 = () => (
           </h4>
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div>
-              <strong>Concept Development:</strong>
+              <strong  className="text-gray-600">Concept Development:</strong>
               <ul className="list-disc list-inside text-gray-700 mt-1">
                 <li>Energy storage method chosen</li>
                 <li>Release mechanism designed</li>
@@ -182,7 +182,7 @@ const Lesson1 = () => (
               </ul>
             </div>
             <div>
-              <strong>Integration Planning:</strong>
+              <strong  className="text-gray-600">Integration Planning:</strong>
               <ul className="list-disc list-inside text-gray-700 mt-1">
                 <li>Mounting location determined</li>
                 <li>Power source identified</li>
@@ -240,24 +240,6 @@ const Lesson1 = () => (
           <li>Explain your energy storage and release approach</li>
           <li>Note any safety considerations you've identified</li>
         </ul>
-      </div>
-      <div className="mt-4 space-x-4">
-        <a
-          href="https://docs.google.com/presentation/your-google-slides-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-cyan-700 hover:bg-cyan-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-cyan-400"
-        >
-          Open Notebook
-        </a>
-        <a
-          href="https://classroom.google.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-green-400"
-        >
-          Submit Design Ideas
-        </a>
       </div>
     </div>
   </>

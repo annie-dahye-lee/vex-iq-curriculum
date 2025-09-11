@@ -34,31 +34,31 @@ const Lesson2 = () => (
             Step-by-Step Building:
           </h3>
           <ol className="list-decimal list-inside text-white-700 space-y-2">
-            <li>
+            <li  className="text-gray-600">
               <strong>Gather Parts:</strong> Collect all required parts from
               your CAD model
             </li>
-            <li>
+            <li  className="text-gray-600">
               <strong>Start with Base:</strong> Build the mounting structure
               that connects to your drivetrain
             </li>
-            <li>
+            <li  className="text-gray-600">
               <strong>Add Motor:</strong> Install the motor that will power the
               claw mechanism
             </li>
-            <li>
+            <li  className="text-gray-600">
               <strong>Build Gear Train:</strong> Assemble the gear system that
               transfers power to the claw
             </li>
-            <li>
+            <li  className="text-gray-600">
               <strong>Construct Claw Arms:</strong> Build the actual gripping
               mechanism
             </li>
-            <li>
+            <li  className="text-gray-600">
               <strong>Connect Everything:</strong> Link the gear train to the
               claw arms
             </li>
-            <li>
+            <li  className="text-gray-600">
               <strong>Test Motion:</strong> Verify the claw opens and closes
               smoothly
             </li>
@@ -295,24 +295,6 @@ const Lesson2 = () => (
             Document any design improvements discovered during construction
           </li>
         </ul>
-      </div>
-      <div className="mt-4 space-x-4">
-        <a
-          href="https://docs.google.com/presentation/your-google-slides-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-cyan-700 hover:bg-cyan-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-cyan-400"
-        >
-          Open Notebook
-        </a>
-        <a
-          href="https://classroom.google.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-green-400"
-        >
-          Submit Photos & Notes
-        </a>
       </div>
     </div>
   </>

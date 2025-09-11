@@ -49,14 +49,6 @@ const Lesson1 = () => (
           photo of your CAD model
         </li>
       </ul>
-      <a
-        href="https://docs.google.com/presentation/your-google-slides-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block mt-4 px-6 py-3 bg-cyan-700 hover:bg-cyan-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-cyan-400"
-      >
-        Open Notebook
-      </a>
     </div>
   </>
 );

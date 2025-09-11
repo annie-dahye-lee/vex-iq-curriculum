@@ -311,24 +311,6 @@ const Lesson2 = () => (
           </li>
         </ul>
       </div>
-      <div className="mt-4 space-x-4">
-        <a
-          href="https://docs.google.com/presentation/your-google-slides-link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-cyan-700 hover:bg-cyan-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-cyan-400"
-        >
-          Open Notebook
-        </a>
-        <a
-          href="https://classroom.google.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-green-400"
-        >
-          Submit Photos & Notes
-        </a>
-      </div>
     </div>
   </>
 );

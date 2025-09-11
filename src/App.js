@@ -44,6 +44,12 @@ import Unit6Lesson3 from "./unit-6/Lesson3";
 import Unit6Lesson4 from "./unit-6/Lesson4";
 import Unit6Lesson5 from "./unit-6/Lesson5";
 
+// Unit 7 imports
+import Unit7LearningGoals from "./unit-7/LearningGoals";
+import Unit7Lesson1 from "./unit-7/Lesson1";
+import Unit7Lesson2 from "./unit-7/Lesson2";
+import Unit7Lesson3 from "./unit-7/Lesson3";
+
 const classroomLogo =
   "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png";
 
@@ -520,6 +526,46 @@ function App() {
           }
         />
         {/* More routes as needed */}
+        {/* Unit 7 Routes */}
+        <Route
+          path="/unit-7"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Unit 7 Overview"
+              prevLink={null}
+              nextLink="/unit-7/lesson-1"
+            >
+              <Unit7LearningGoals />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-7/lesson-1"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 1: CAD, Build, and Test Final Robot"
+              prevLink="/unit-7"
+              nextLink="/unit-7/lesson-2"
+            >
+              <Unit7Lesson1 />
+            </LessonPageLayout>
+          }
+        />
+        <Route
+          path="/unit-7/lesson-2"
+          element={
+            <LessonPageLayout
+              {...sidebarProps}
+              title="Lesson 2: Programming"
+              prevLink="/unit-7/lesson-1"
+              nextLink="/unit-7/lesson-3"
+            >
+              <Unit7Lesson2 />
+            </LessonPageLayout>
+          }
+        />
       </Routes>
     </Router>
   );

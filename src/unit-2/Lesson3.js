@@ -53,28 +53,6 @@ const Lesson3 = () => (
         </div>
       </div>
     </div>
-    <div className="bg-gradient-to-br from-white via-cyan-50 to-cyan-100 border-l-4 border-cyan-500 p-6 rounded-lg shadow-xl mb-8">
-      <h4 className="text-lg font-bold text-cyan-700 mb-4 uppercase tracking-wide">
-        Homework
-      </h4>
-      <ul className="list-disc list-inside text-gray-800 space-y-2 mb-4">
-        <li>
-          Record your progress in your notebook (new topics learned, screenshots
-          of your block code)
-        </li>
-        <li>
-          Complete the coding practice exercises and submit on Google Classroom
-        </li>
-      </ul>
-      <a
-        href="https://docs.google.com/presentation/your-google-slides-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block mt-4 px-6 py-3 bg-cyan-700 hover:bg-cyan-500 text-white font-bold rounded-md transition uppercase tracking-wide shadow-lg border-2 border-cyan-400"
-      >
-        Open Notebook
-      </a>
-    </div>
   </>
 );
 

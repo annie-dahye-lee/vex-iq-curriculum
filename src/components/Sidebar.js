@@ -67,7 +67,13 @@ const Sidebar = ({
         { name: "Combining Parts", link: `/unit-6/lesson-4` },
         { name: "Final Build", link: `/unit-6/lesson-5` },
       ];
-    } else {
+    } else if (number === 7) {
+      lessons = [
+        { name: "Learning Goals", link: `/unit-7` },
+        { name: "CAD, Build, and Test Final Robot", link: `/unit-7/lesson-1` },
+        { name: "Programming Final Robot", link: `/unit-7/lesson-2` },
+      ];
+      } else {
       // Default: use first 2 lessons for other units
       lessons = [
         { name: "Learning Goals", link: `/unit-${number}` },
