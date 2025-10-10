@@ -41,6 +41,15 @@ const Lesson1 = () => (
               <li>Consistent grip force</li>
               <li>Easier to control precisely</li>
             </ul>
+            {/* PDF Link */}
+            <a
+              href="/pdfs/claw_building_instruction_ver2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block mt-4 text-cyan-700 underline hover:text-cyan-900"
+            >
+              📘 View Claw Building Instruction (PDF)
+            </a>
           </div>
           <div className="bg-cyan-50 p-4 rounded-lg border border-cyan-200">
             <h3 className="text-lg font-semibold text-cyan-800 mb-3">
